@@ -32,6 +32,35 @@ a {
     color: black;
 }
 
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0 5%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+} 
+
+@media only screen and (max-width: 480px) {
+    body {
+        margin: 0 1%;
+    }
+
+    header {
+        border-bottom: 2px solid black;
+        
+    }
+
+    header h1 {
+        margin: .25rem 0;
+    }
+}
+
 /* Box Styles */
 
 .container {
@@ -60,6 +89,13 @@ a {
     flex-wrap: wrap;
     align-content: center;
     margin: 20px .75rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        border-right: none;
+        border-left: none;
+        border-top: none;
 }
 
 /* Color Section */
@@ -109,8 +145,7 @@ a {
 /* Font Section */
 
 .font-panel {
-    border: none;
-    padding: 1rem;
+    border: none;   
     display: flex;
     flex-direction: column;
     margin: 1rem .75rem;
@@ -152,8 +187,7 @@ a {
 /* Text styles */
 
 .text-style-panel {
-    border: none;
-    padding: 1rem;
+    border: none; 
     display: flex;
     flex-direction: column;
     margin: 1rem .75rem;
@@ -217,4 +251,10 @@ a {
 footer {
     text-align: right;
     margin: 2rem 0;
+}
+
+@media only screen and (max-width: 480px) {
+    footer {
+        text-align: center;
+    }
 }
