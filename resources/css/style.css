@@ -13,16 +13,16 @@ h1 {
 
 h2 {
     font-size: 1.75rem;
-    padding: 0.75rem;
-    margin: 1rem 1.25rem;
+    padding: 0.25rem;
+    margin: 10px 20px;
 }
 
 h3 {
-
+    margin: 10px 20px;
 }
 
 p {
-
+    margin: 8px 20px;
 }
 
 a {
@@ -41,14 +41,13 @@ a {
 
 .container-head {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: column;
+    margin: 10px 0 0 0;
 }
 
 .container-head p {
-    padding: 0.75rem;
-    margin: 1rem 1.25rem;
-    justify-content: end;
+    
+    margin: 0 20px;
 }
 
 .color-box {
@@ -56,6 +55,7 @@ a {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: center;
+    margin: 20px .75rem;
 }
 
 .color-panel {
@@ -63,14 +63,16 @@ a {
     padding: 1.75rem;
     display: flex;
     flex-direction: column;
-    margin: 1.5rem 1.5rem;
+    margin: 1rem .75rem;
     min-width: 125px;
     min-height: 125px;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 250px;
+    max-height: 250px;
     justify-content: center;
+    align-items: center;
     font-weight: bold;
     font-size: 1.25rem;
+    flex-grow: 1;
 }
 
 #panel-1 {
@@ -96,6 +98,35 @@ a {
 #panel-5 {
     color: white;
     background-color: #22E048;
+}
+
+.font-panel {
+    border: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem .75rem;
+    min-width: 300px;
+    min-height: 250px;
+    max-width: 450px;
+    max-height: 600px;
+    justify-content: center;
+    align-items: left;
+    font-weight: bold;
+    font-size: 1.25rem;
+    flex-grow: 1;
+}
+
+#font-1 {
+    
+}
+
+#font-2 {
+
+}
+
+#font-3 {
+
 }
 
 footer {
