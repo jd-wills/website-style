@@ -1,3 +1,5 @@
+/* Universal Styles */
+
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
@@ -30,6 +32,8 @@ a {
     color: black;
 }
 
+/* Box Styles */
+
 .container {
     border: 2px solid black;
     text-align: left;
@@ -46,17 +50,19 @@ a {
 }
 
 .container-head p {
-    
+
     margin: 0 20px;
 }
 
-.color-box {
+.box {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: center;
     margin: 20px .75rem;
 }
+
+/* Color Section */
 
 .color-panel {
     border: 1px solid black;
@@ -100,6 +106,8 @@ a {
     background-color: #22E048;
 }
 
+/* Font Section */
+
 .font-panel {
     border: 1px solid black;
     padding: 1rem;
@@ -112,22 +120,36 @@ a {
     max-height: 600px;
     justify-content: center;
     align-items: left;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 1.25rem;
     flex-grow: 1;
 }
 
+.font-panel h3 {
+    text-decoration: underline;
+}
+
 #font-1 {
-    
+    font-family:  'Alegreya Sans', sans-serif;
 }
 
 #font-2 {
-
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #font-3 {
-
+    font-family: 'Mali', cursive;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Footer */
 
 footer {
     text-align: right;
